@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GARM</title>
+  <link rel="icon" href="imgs/logo.png" type="logo">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="logo"><img src="imgs/logosemfundo.png" alt="Logo"></a></li>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="#about" class="link">Quem Somos</a></li>
+                <li><a href="contato.html" class="link">Contato</a></li>
+                <li><a href="index.html#masculinas" class="link">Roupas Masculinas</a></li>
+                <li><a href="index.html#femininas" class="link">Roupas Femininas</a></li>
+                <button id="mudartema" class="link"><i class="fas fa-palette"></i></button>
+              <button id="carrinho" class="link"><i class="fas fa-shopping-cart"></i></button>
+            </ul>
+        </nav>
+    </header>
+    <!-- Carrinho -->
+<main id="maincarrinho">
+    <div class="carrinho" >Seu Carrinho</div>
+    <div class ="content">
+        <section >
+          <table>
+            <thead>
+              <tr>
+                <button id="adicionarblusas">Adicionar Blusas</button>
+                <th>Produto</th>
+                <th>Preço</th>  
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>                                           
+              </tr>
+            </thead>
+          <tbody>
+           
+            </tbody>
+          </table>
+        </section>
+        <!-- Area de Fechamento do produto -->
+        <aside>
+          <div class="box">
+            <header>Resumo da Compra</header>
+            <div class="info">
+              <div><span>Sub Total</span><span class="subtotal">R$ </span></div>
+              <div ><span>Frete</span><span class="calcularfrete">R$ </span></div>
+              <div id="botaofrete"><button id="calcularfrete">Calcular Frete  <i style="padding-left: 5px;" class="fa-solid fa-truck-fast"></i></button></div>
+            </div>
+            <footer>
+              <span>Total</span>
+              <span class="total-final"> </span>
+            </footer>
+          </div>
+          <button id="finalizarcompra">Finalizar Compra</button>
+        </aside>
+    </div>
+</main>
+    <!-- footer -->
+      <footer id="footer">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p>Email: contato@garm.com</a>
+            <p>Telefone: (21) 98833-9569</p>
+            <p>Endereço: Rua Clarimundo de Melo, n° 847, Rio de Janeiro, RJ</p>
+          </div>
+          <div class="footer-section">
+            <h3>Redes Sociais</h3>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i> Twitter</a>
+          </div>
+          <div class="footer-section">
+            <h3>Links Úteis</h3>
+            <a href="index.html#about">Quem Somos</a>
+            <a href="contato.html">Contato</a>
+            <a href="index.html#masculinas">Roupas Masculinas</a>
+            <a href="index.html#femininas">Roupas Femininas</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 GARM. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+
+    </html>
